@@ -1,0 +1,11 @@
+# Verified environment: Python 3.13.x, TensorFlow 2.21.x, Keras 3.15.x
+# Do NOT downgrade to TensorFlow/Keras 2.11
+
+tensorflow>=2.21.0,<2.22
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.12
+python-dotenv>=1.0.0
+pillow>=10.0.0
+numpy>=2.0.0
+httpx>=0.27.0

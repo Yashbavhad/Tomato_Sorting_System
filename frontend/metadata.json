@@ -1,0 +1,10 @@
+{
+  "name": "TomatoSort AI",
+  "description": "AI-Powered Tomato Quality Inspection & Sorting System using EfficientNetB0 image classification for 4 quality classes: Ripe, Unripe, Damaged, and Old.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

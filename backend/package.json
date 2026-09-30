@@ -1,0 +1,13 @@
+{
+  "name": "tomato-sorting-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "npm convenience launcher for the Python FastAPI tomato sorting backend. No Node server.",
+  "scripts": {
+    "dev": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/dev.ps1",
+    "start": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/start.ps1",
+    "test": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/test.ps1",
+    "model:test": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/model-test.ps1",
+    "health": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/health.ps1"
+  }
+}
